@@ -1,0 +1,21 @@
+{
+  "name": "devstory-backend",
+  "version": "1.0.0",
+  "description": "This a simple CRUD app",
+  "main": "server.js", 
+  "scripts": {
+    "test": "",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.6.0"
+  },
+  "devDependencies": {
+    "dotenv": "^9.0.0"
+  }
+}
