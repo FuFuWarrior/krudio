@@ -9,7 +9,7 @@ This is a simple CRUD API that allows the users to:
 ### API ROUTES
 
 Verb | Article Routes | Action | Returns
------------- | -------------
+---- | ------------- | ------ | -------
 GET | /api/v1/all?user=<user> | Gets all article of a given user |JSON
 GET | /api/v1/articles/:articleId/ | Gets a specific article using the article id | JSON
 POST | /api/v1/articles/create | Create an article
