@@ -12,7 +12,7 @@ Verb | Article Routes | Action | Returns
 ---- | ------------- | ------ | -------
 GET | /api/v1/all?user=<user> | Gets all article of a given user |JSON
 GET | /api/v1/articles/:articleId/ | Gets a specific article using the article id | JSON
-POST | /api/v1/articles/create | Create an article
+POST | /api/v1/articles/create | Create an article | JSON
 PATCH | /api/v1/articles/:articleId/edit/ | Updates a specific article using the article id | JSON
 DELETE | /api/v1/articles/:articleId | Deletes an article using the article id | JSON
 DELETE | /api/v1/articles?user=<user> | Deletes all the articles using the user | JSON
